@@ -1,0 +1,132 @@
+{
+    "area": {
+        "name": "Orgrimmar",
+        "district": "Valley_Of_Honor",
+        "store": {
+            "name": "Axe_Store",
+            "storeType": "Big",
+            "status": "Active"
+        },
+        "manager": "Goro Takemura"
+    },
+    "district": {
+        "name": "Valley_Of_Honor",
+        "store": {
+            "name": "Axe_Store",
+            "storeType": "Big",
+            "status": "Active"
+        },
+        "storeManager": "Petro Nagirnuy",
+        "area": "Orgrimmar",
+        "manager": "Rogue Amendiares"
+    },
+    "store": {
+        "name" : "Sword_Store",
+        "sourceSystemId" : "Sword_Store",
+        "area" : "Stormwind",
+        "district" : "Mage_Quarter",
+        "storeManager" : "Not assigned",
+        "storeType" : "Middle",
+        "timeZone" : "(UTC-12:00) International Date Line West",
+        "country" : "US",
+        "city" : "Felwood",
+        "stateProvRegion" : "GA",
+        "address" : "West Fel Forest, Felwood, GA, 54321",
+        "zipPostal" : "54321",
+        "phone" : "332255",
+        "status" : "Active",
+        "schedulingDemand" : "Gross Profit",
+        "employeeRanking" : "Gross Profit",
+        "autoInvite" : false,
+        "storeHours" : false,
+        "automationToggle" : false,
+        "openingExtension": "15",
+        "closingExtension": "15",
+        "minMaxPlan": {
+            "name" :"Default",
+            "description": "Default shift length settings plan"
+        },
+        "breakPlan": {
+            "name": "No Breaks",
+            "description": "Breaks will not be applied during the automation process. If breaks are needed, your team will add them manually."
+        },
+        "coveragePlan": {
+            "name": "Pre-condition Coverage Plan",
+            "description": "1"
+        },
+        "smartTemplate": {
+            "name": "No Smart Template",
+            "description": "The smart template will not be applied during the automation process."
+        },
+        "formFullValue": {
+            "country": "United States",
+            "stateProvRegion": "Georgia",
+            "address": "West Fel Forest",
+            "timeZone": "(UTC-12:00) International Date Line West"
+        }
+    },
+    
+    "storeEntry": {
+        "name" : "Another_Store_Name",
+        "sourceSystemId" : "Sword_Store",
+        "area" : "Orgrimmar",
+        "district" : "Valley_Of_Honor",
+        "storeManager" : "Not assigned",
+        "storeType" : "Small",
+        "timeZone" : "(UTC-12:00) International Date Line West",
+        "country" : "CA",
+        "city" : "City_test",
+        "stateProvRegion" : "MB",
+        "address" : "adress_test, City_test, MB, zip_test",
+        "zipPostal" : "zip_test",
+        "phone" : "0000111122223333",
+        "status" : "Active",
+        "schedulingDemand" : "Gasoline",
+        "employeeRanking" : "Gasoline",
+        "autoInvite" : true,
+        "storeHours" : true,
+        "openings": {
+            "sunday": "10:00a",
+            "monday": "11:00a",
+            "tuesday": "12:00p",
+            "wednesday": "1:00p",
+            "thursday": "12:00p",
+            "friday": "9:00a",
+            "saturday": "Closed"
+        },
+        "closings": {
+            "sunday": "12:00p",
+            "monday": "1:00p",
+            "tuesday": "3:00p",
+            "wednesday": "4:00p",
+            "thursday": "10:00p",
+            "friday": "9:00p",
+            "saturday": "Closed"
+        },
+        "automationToggle" : true,
+        "openingExtension": "30",
+        "closingExtension": "30",
+        "minMaxPlan": {
+            "name" :"Pre-Condition Min & Max Hours Plan",
+            "description": "Pre-Condition Min & Max Hours Plan for automated testing."
+        },
+        "breakPlan": {
+            "name": "Pre-condition Break Plan",
+            "description": "1"
+        },
+        "coveragePlan": {
+            "name": "Coverage Plan number 2",
+            "description": "Coverage Plan 2 for automated testing."
+        },
+        "smartTemplate": {
+            "name": "Pre-Condition Smart Template Plan",
+            "description": "Empty plan."
+        },
+        "formFullValue": {
+            "country": "Canada",
+            "stateProvRegion": "Manitoba",
+            "address": "adress_test",
+            "timeZone": "(UTC-12:00) International Date Line West"
+        }
+    }
+}

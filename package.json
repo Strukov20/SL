@@ -1,0 +1,24 @@
+{
+  "name": "shiftlab-aqa",
+  "version": "1.0.0",
+  "description": "AQA Cypress Scripts for ShiftLab",
+  "main": "cypress.config.ts",
+  "scripts": {
+    "eslint": "npx eslint cypress/e2e",
+    "cy:open": "cypress open",
+    "cy:stage": "npx cypress open --e2e --config-file stage.config.js --browser chrome",
+    "cy:test": "npx cypress open --e2e --config-file test.config.js --browser chrome",
+    "cy:prod": "npx cypress open --e2e --config-file production.config.js --browser chrome",
+    "report:prod": "npx cypress run --config-file production.config.js",
+    "report:merge": "npx mochawesome-merge mochawesome-report/*.json -o mochawesome-report/fullReport.json"
+  },
+  "author": "Andrii Cheipesh",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0",
+    "eslint": "^8.32.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.2"
+  }
+}

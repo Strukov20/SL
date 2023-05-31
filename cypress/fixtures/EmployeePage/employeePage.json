@@ -1,0 +1,86 @@
+{
+    "users" : {
+        "globalManager" : {
+            "companyRoleSelector": "companyRole",
+            "companyRole": "Global Manager", 
+            "firstNameSelector": "firstName", 
+            "firstName": "GlobalManager",
+            "lastNameSelector": "lastName", 
+            "lastName": "Cypress",
+            "usernameSelector": "username", 
+            "username": "GlobalManagerCypress@mailinator.com",
+            "emailSelector": "email", 
+            "email": "GlobalManagerCypress@mailinator.com"
+        },
+        "areaManager" : {
+            "companyRoleSelector": "companyRole",
+            "companyRole": "Area Manager",
+            "locationType": "Area",
+            "locationName": "Stormwind",
+            "firstNameSelector": "firstName", 
+            "firstName": "AreaManager",
+            "lastNameSelector": "lastName", 
+            "lastName": "Cypress",
+            "usernameSelector": "username", 
+            "username": "AreaManagerCypress@mailinator.com",
+            "emailSelector": "email", 
+            "email": "AreaManagerCypress@mailinator.com"
+        },
+        "districtManager" : {
+            "companyRoleSelector": "companyRole",
+            "companyRole": "District Manager",
+            "locationType": "District",
+            "locationName": "Mage_Quarter",
+            "firstNameSelector": "firstName", 
+            "firstName": "DistrictManager",
+            "lastNameSelector": "lastName", 
+            "lastName": "Cypress",
+            "usernameSelector": "username", 
+            "username": "DistrictManagerCypress@mailinator.com",
+            "emailSelector": "email", 
+            "email": "DistrictManagerCypress@mailinator.com"
+        },
+        "storelManager" : {
+            "companyRoleSelector": "companyRole",
+            "companyRole": "Store Manager",
+            "locationType": "Store",
+            "locationName": "Arrow_Store", 
+            "firstNameSelector": "firstName", 
+            "firstName": "StoreManager",
+            "lastNameSelector": "lastName", 
+            "lastName": "Cypress",
+            "usernameSelector": "username", 
+            "username": "StoreManagerCypress@mailinator.com",
+            "emailSelector": "email", 
+            "email": "StoreManagerCypress@mailinator.com"
+        },
+        "storelManagerVO" : {
+            "companyRoleSelector": "companyRole",
+            "companyRole": "Store Manager - View Only",
+            "locationType": "Store",
+            "locationName": "Arrow_Store", 
+            "firstNameSelector": "firstName", 
+            "firstName": "StoreManagerVO",
+            "lastNameSelector": "lastName", 
+            "lastName": "Cypress",
+            "usernameSelector": "username", 
+            "username": "StoreManagerVOCypress@mailinator.com",
+            "emailSelector": "email", 
+            "email": "StoreManagerVOCypress@mailinator.com"
+        },
+        "Employee" : {
+            "companyRoleSelector": "companyRole",
+            "companyRole": "Employee",
+            "locationType": "Store",
+            "locationName": "Arrow_Store", 
+            "firstNameSelector": "firstName", 
+            "firstName": "Employee",
+            "lastNameSelector": "lastName", 
+            "lastName": "Cypress",
+            "usernameSelector": "username", 
+            "username": "EmployeeCypress@mailinator.com",
+            "emailSelector": "email", 
+            "email": "EmployeeCypress@mailinator.com"
+        }
+    }
+}
